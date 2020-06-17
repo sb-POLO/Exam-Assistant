@@ -1,0 +1,2 @@
+rootProject.name='Exam Assistant'
+include ':app'

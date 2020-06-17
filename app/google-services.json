@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "110869120176",
+    "firebase_url": "https://exam-assistant-cfc69.firebaseio.com",
+    "project_id": "exam-assistant-cfc69",
+    "storage_bucket": "exam-assistant-cfc69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110869120176:android:6e3ebf35d14825e3f02775",
+        "android_client_info": {
+          "package_name": "com.example.examassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110869120176-tbqaum7t0g8j79k0fokesle3aibfu740.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.examassistant",
+            "certificate_hash": "38fb09e23923be1d591ea578f38e8fafeab12243"
+          }
+        },
+        {
+          "client_id": "110869120176-k0ieq5v7vplnav6beeir72k3h3o36v9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpgImW77gLJm7_uaxLoaJFjatRZ1sd-nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110869120176-k0ieq5v7vplnav6beeir72k3h3o36v9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

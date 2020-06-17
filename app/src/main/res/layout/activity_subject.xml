@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_app_background_6"
+    tools:context=".SubjectActivity">
+
+    <Button
+        android:id="@+id/btn_CS802E"
+        android:layout_width="165dp"
+        android:layout_height="84dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="E -  COMMERCE"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_CS801D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
+
+    <Button
+        android:id="@+id/btn_CS801D"
+        android:layout_width="165dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="cryptography and network security"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_HU801A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_HU801A"
+        android:layout_width="165dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="organisational behaviour"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_stream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="true"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="CSE"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#070707"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_semester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="true"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="8th Semseter"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_stream"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

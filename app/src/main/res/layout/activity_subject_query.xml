@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_app_background_6"
+    tools:context=".Subject_queryActivity">
+
+    <Button
+        android:id="@+id/btn_topics"
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="IMPORTANT TOPICS"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_quespapers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mcq" />
+
+    <Button
+        android:id="@+id/btn_quespapers"
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="QUESTION PAPERS"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <TextView
+        android:id="@+id/tv_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="ORGANISATIONAL BEHAVIOUR"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#070707"
+        android:textIsSelectable="false"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_mcq"
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="MCQ TEST"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372" />
+</androidx.constraintlayout.widget.ConstraintLayout>

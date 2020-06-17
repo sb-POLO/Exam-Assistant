@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/et"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="true"
+    android:background="@drawable/android_app_background_6"
+    tools:context=".StreamActivity">
+
+    <TextView
+        android:id="@+id/tv_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="true"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="MAKAUT"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#070707"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+    " />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <Button
+        android:id="@+id/btn_2018"
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="ECE"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_2019"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_2019"
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="ME"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_2017"
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="ce"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_2019"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ee"
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="ee"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_2018"
+        app:layout_constraintEnd_toStartOf="@+id/btn_2017"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_it"
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="it"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_2017"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801" />
+
+    <Button
+        android:id="@+id/btn_2014"
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+        android:background="@drawable/button_border2"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="cse"
+        android:textColor="#CCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ee"
+        app:layout_constraintEnd_toStartOf="@+id/btn_it"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="true"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="Choose your stream"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_subject"
+        app:layout_constraintVertical_bias="0.101" />
+</androidx.constraintlayout.widget.ConstraintLayout>
